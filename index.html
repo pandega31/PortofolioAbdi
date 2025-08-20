@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- AOS Library for Scroll Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portfolio | Pandega Surya Abditama</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Pandega Surya Abditama</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron/Hero Section -->
+    <section class="jumbotron text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+              <div class="profile-container mb-4">
+                <div class="profile-img-wrapper">
+                  <img
+                    src="img/3868.jpg"
+                    alt="Pandega Surya Abditama"
+                    width="200"
+                    class="rounded-circle img-thumbnail profile-img"
+                  />
+                  <div class="circle-1"></div>
+                  <div class="circle-2"></div>
+                </div>
+              </div>
+              <h1 class="display-4 fw-bold mb-3">Pandega Surya Abditama</h1>
+              <p class="lead mb-4">Web Developer & Graphic Designer</p>
+              <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="#projects" class="btn btn-primary btn-lg px-4"
+                  >View My Projects</a
+                >
+                <a href="#contact" class="btn btn-outline-light btn-lg px-4"
+                  >Contact Me</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L30,170.7C60,181,120,203,180,208C240,213,300,203,360,186.7C420,171,480,149,540,128C600,107,660,85,720,69.3C780,53,840,43,900,64C960,85,1020,139,1080,154.7C1140,171,1200,149,1260,133.3C1320,117,1380,107,1410,101.3L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="fw-bold section-title" data-aos="fade-up">About Me</h2>
+            <div class="underline mx-auto mb-4"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="about-card p-5" data-aos="fade-up">
+              <p class="lead text-center mb-4">
+                I am a new Informatics Engineering student at Politeknik
+                Elektronika Negeri Surabaya (PENS) with an educational
+                background from SMK Negeri 2 Surabaya, specializing in software
+                development and graphic design.
+              </p>
+              <div class="row mt-5">
+                <div class="col-md-6 mb-4">
+                  <h3 class="h4 mb-3">Education</h3>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      <strong>Politeknik Elektronika Negeri Surabaya (PENS)</strong
+                      ><br />
+                      Informatics Engineering<br />
+                      2025 - Present
+                    </li>
+                    <li class="list-group-item">
+                      <strong>SMK Negeri 2 Surabaya</strong><br />
+                      Software Engineering<br />
+                      2022 - 2025
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <h3 class="h4 mb-3">Skills</h3>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="skill-badge">Web Development</span>
+                    <span class="skill-badge">Graphic Design</span>
+                    <span class="skill-badge">IoT Engineering</span>
+                    <span class="skill-badge">Robotic Mechanics</span>
+                    <span class="skill-badge">HTML/CSS</span>
+                    <span class="skill-badge">PHP</span>
+                    <span class="skill-badge">UI/UX Design</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-12">
+                  <h3 class="h4 mb-3">Hobbies</h3>
+                  <div class="d-flex flex-wrap gap-3">
+                    <span class="skill-badge">Futsal</span>
+                    <span class="skill-badge">Volleyball</span>
+                    <span class="skill-badge">Billiards</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,256L48,245.3C96,235,192,213,288,197.3C384,181,480,171,576,186.7C672,203,768,245,864,261.3C960,277,1056,267,1152,240C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="fw-bold section-title" data-aos="fade-up">
+              My Experience
+            </h2>
+            <div class="underline mx-auto mb-4"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="timeline">
+              <!-- Experience Item -->
+              <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-content">
+                  <h4>Chairman of Orphanage Donation Event and SOTR 2023</h4>
+                  <p class="text-primary">2023</p>
+                  <p>
+                   I was entrusted as the Head Coordinator of social activities 
+                   such as an Orphans’ Charity Event and SOTR (Sahur On The Road). 
+                   In this role, I was fully responsible for planning, coordinating, 
+                   and executing the events to ensure their success.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Experience Item -->
+              <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="timeline-content">
+                  <h4>Internship at PT. Nusanet Surabaya</h4>
+                  <p class="text-primary">2024</p>
+                  <p>
+                    I completed an internship at a WiFi networking company, 
+                    gaining experience in installation, maintenance, troubleshooting, 
+                    device dismantling, and site surveys, while developing 
+                    knowledge of network infrastructure and applying workplace safety practices.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Experience Item -->
+              <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                <div class="timeline-content">
+                  <h4>Vice Chairman of August Competition Committee 2025</h4>
+                  <p class="text-primary">2025</p>
+                  <p>
+                    I served as the Vice Coordinator of the Independence Day competition (Agustusan) 
+                    held to celebrate Indonesia’s Independence Day. In this role, I assisted the main 
+                    coordinator in managing the event from preparation to execution, ensuring that 
+                    all activities ran smoothly and successfully.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L40,133.3C80,107,160,53,240,69.3C320,85,400,171,480,186.7C560,203,640,149,720,149.3C800,149,880,203,960,213.3C1040,224,1120,192,1200,165.3C1280,139,1360,117,1400,106.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Experience -->
+
+    <!-- Achievements -->
+    <section id="achievements">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="fw-bold section-title" data-aos="fade-up">
+              My Achievements
+            </h2>
+            <div class="underline mx-auto mb-4"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4" data-aos="flip-up">
+            <div class="achievement-card text-center">
+              <div class="achievement-icon">
+                <i class="bi bi-trophy-fill"></i>
+              </div>
+              <h4>3rd Place - Automatic Ship Robot Competition (FFR)</h4>
+              <p class="text-primary">National Level at PPNS, 2023</p>
+              <p>
+                Achieved third place in a national-level robotics competition
+                focused on autonomous ship navigation.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4" data-aos="flip-up" data-aos-delay="200">
+            <div class="achievement-card text-center">
+              <div class="achievement-icon">
+                <i class="bi bi-award-fill"></i>
+              </div>
+              <h4>2nd Place - Craft Competition (FEAT)</h4>
+              <p class="text-primary">National Level at UMS, 2024</p>
+              <p>
+                Secured second place in a national craft competition showcasing
+                innovation and technical skills.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="about-card p-4">
+              <h3 class="text-center mb-4">Competition Participation</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      Automatic Ship Robot Competition (FFR) 2023
+                    </li>
+                    <li class="list-group-item">
+                      Transport Robot Competition (Baronas) 2024
+                    </li>
+                    <li class="list-group-item">
+                      Transport Robot Competition (JRC) 2023
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      Soccer Robot Competition (IARC) 2023
+                    </li>
+                    <li class="list-group-item">
+                      Craft Competition (FEAT) 2024
+                    </li>
+                    <li class="list-group-item">
+                      Soccer Robot Competition (National Championship) 2024
+                    </li>
+                    <li class="list-group-item">
+                      Coding Competition (PT. BITS Millartha) 2024
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Achievements -->
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="fw-bold section-title" data-aos="fade-up">
+              My Projects
+            </h2>
+            <div class="underline mx-auto mb-4"></div>
+            <p
+              class="lead mx-auto mb-5"
+              style="max-width: 600px"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Here are some of my recent works that showcase my skills and
+              creativity
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center g-4">
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="200">
+            <div class="card project-card h-100">
+              <div class="image-wrapper">
+                <img
+                  src="img/projects/Screenshot (21).png"
+                  class="card-img-top"
+                  alt="Web Development Project"
+                />
+                <!-- <div class="overlay">
+                  <div class="overlay-content">
+                    <a href="#" class="btn btn-sm btn-outline-light me-2"
+                      >View Demo</a
+                    >
+                    <a href="#" class="btn btn-sm btn-light">Source Code</a>
+                  </div>
+                </div> -->
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">E-Commerce Website</h5>
+                <p class="card-text">
+                  AgroMart is an e-commerce platform I developed to connect farmers, breeders, 
+                  fishermen, and growers directly with consumers. It streamlines the distribution 
+                  process, improves efficiency, and offers more competitive prices.
+                </p>
+                <div class="tech-tags">
+                  <span class="badge bg-primary">PHP</span>
+                  <span class="badge bg-primary">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="300">
+            <div class="card project-card h-100">
+              <div class="image-wrapper">
+                <img
+                  src="img/projects/Tempat Sampah Otomatis.jpg"
+                  class="card-img-top"
+                  alt="Graphic Design Project"
+                />
+                <!-- <div class="overlay">
+                  <div class="overlay-content">
+                    <a href="#" class="btn btn-sm btn-outline-light me-2"
+                      >View Project</a
+                    >
+                    <a href="#" class="btn btn-sm btn-light">Details</a>
+                  </div>
+                </div> -->
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Project IoT</h5>
+                <p class="card-text">
+                  An IoT-based Automatic Trash Bin using an ultrasonic sensor and servo motor 
+                  to open the lid automatically for better hygiene.
+                </p>
+                <div class="tech-tags">
+                  <span class="badge bg-primary">Arduino</span>
+                  <span class="badge bg-primary">C++</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="flip-left" data-aos-delay="400">
+            <div class="card project-card h-100">
+              <div class="image-wrapper">
+                <img
+                  src="img/projects/Screenshot (34).png"
+                  class="card-img-top"
+                  alt="Robotics Project"
+                />
+                <!-- <div class="overlay">
+                  <div class="overlay-content">
+                    <a href="#" class="btn btn-sm btn-outline-light me-2"
+                      >View Demo</a
+                    >
+                    <a href="#" class="btn btn-sm btn-light">Details</a>
+                  </div>
+                </div> -->
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Autonomous Robot</h5>
+                <p class="card-text">
+                  The Autonomous Ship Robot is a robotics project I developed 
+                  with self-navigation capabilities to accomplish missions 
+                  using sensors, actuators, and a control system.
+                </p>
+                <div class="tech-tags">
+                  <span class="badge bg-primary">Arduino</span>
+                  <span class="badge bg-primary">C++</span>
+                  <span class="badge bg-primary">Sensors</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="text-center mt-5">
+          <a href="#" class="btn btn-outline-primary btn-lg">View All Projects</a>
+        </div> -->
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L40,133.3C80,107,160,53,240,69.3C320,85,400,171,480,186.7C560,203,640,149,720,149.3C800,149,880,203,960,213.3C1040,224,1120,192,1200,165.3C1280,139,1360,117,1400,106.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="fw-bold section-title" data-aos="fade-up">
+              Contact Me
+            </h2>
+            <div class="underline mx-auto mb-4"></div>
+            <p
+              class="lead mx-auto mb-5"
+              style="max-width: 600px"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Have a project in mind or want to collaborate? Feel free to reach
+              out!
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-wrapper p-4 p-md-5" data-aos="zoom-in">
+              <form>
+                <div class="mb-4">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    id="name"
+                    aria-describedby="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control form-control-lg"
+                    id="email"
+                    aria-describedby="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control form-control-lg"
+                    id="message"
+                    rows="4"
+                    placeholder="Type your message here..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg w-100">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="1"
+          d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h3 class="fw-bold mb-4">Pandega Surya Abditama</h3>
+            <p class="mb-4">
+              Creating digital experiences that leave a lasting impression
+            </p>
+            <div class="contact-info mb-4">
+              <p>
+                <i class="bi bi-telephone-fill me-2"></i>0857-4942-7132<br />
+                <i class="bi bi-envelope-fill me-2"></i
+                >pabditama1411@gmail.com<br />
+                <i class="bi bi-geo-alt-fill me-2"></i>JL Bringin Indah No. 1A
+              </p>
+            </div>
+            <div class="social-links mb-4">
+              <a href="https://www.instagram.com/abditama_31?igsh=MTVmaW9ma3MzZGc4eQ==" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.tiktok.com/@abdiisaaaan?is_from_webapp=1&sender_device=pc" class="text-white mx-2"><i class="bi bi-tiktok"></i></a>
+              <a href="https://www.facebook.com/share/1YiNdRvLsk/" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+            </div>
+            <p>
+              Created with <i class="bi bi-heart-fill text-danger"></i> by
+              <a
+                href="https://www.instagram.com/abditama_31/"
+                class="text-white fw-bold"
+                >Pandega Surya Abditama</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Initialize AOS -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+          duration: 1000,
+          once: true,
+          offset: 100,
+        });
+      });
+    </script>
+  </body>
+</html>
